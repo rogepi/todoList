@@ -1,16 +1,23 @@
 {
-  "welcome": "Welcome",
-  "username": "username",
-  "password": "password",
-  "signin": "Sign in",
-  "hi": "Hi",
-  "mytodo": "My TodoList",
-  "signout": "Sign Out",
-  "todolist": "todoList",
-  "backtodash": "back to dash",
-  "add": "Add",
-  "edit": "edit",
-  "del": "del",
-  "yes": "yes",
-  "no": "no"
+  "login": {
+    "welcome": "Welcome",
+    "username": "username",
+    "password": "password",
+    "signin": "Sign in",
+    "link": "You can view the code from <a style='color:blue' href='https://github.com/rogepi/todoList'>here</a>"
+  },
+  "dash": {
+    "hi": "Hi",
+    "mytodo": "My TodoList",
+    "signout": "Sign Out"
+  },
+  "todo": {
+    "todolist": "todoList",
+    "backtodash": "back to dash",
+    "add": "Add",
+    "edit": "edit",
+    "del": "del",
+    "yes": "yes",
+    "no": "no"
+  }
 }

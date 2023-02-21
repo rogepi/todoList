@@ -1,16 +1,23 @@
 {
-  "welcome": "欢迎",
-  "username": "用户名",
-  "password": "密码",
-  "signin": "登录",
-  "hi": "您好",
-  "mytodo": "我的待办清单",
-  "signout": "注销",
-  "todolist": "待办清单",
-  "backtodash": "返回控制台",
-  "add": "添加",
-  "edit": "编辑",
-  "del": "删除",
-  "yes": "确定",
-  "no": "取消"
+  "login": {
+    "welcome": "欢迎",
+    "username": "用户名",
+    "password": "密码",
+    "signin": "登录",
+    "link": "你可以在<a style='color:blue' href='https://github.com/rogepi/todoList'>这里</a>查看源码"
+  },
+  "dash": {
+    "hi": "您好",
+    "mytodo": "我的待办清单",
+    "signout": "注销"
+  },
+  "todo": {
+    "todolist": "待办清单",
+    "backtodash": "返回控制台",
+    "add": "添加",
+    "edit": "编辑",
+    "del": "删除",
+    "yes": "确定",
+    "no": "取消"
+  }
 }

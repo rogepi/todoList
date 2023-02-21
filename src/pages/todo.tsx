@@ -40,8 +40,8 @@ const Todo = () => {
   }
   return (
     <>
-      <h1 className='font-bold text-6xl'>{t("todolist")}</h1>
-      <Link className='text-base underline mx-2' to="/dash">{t("backtodash")}</Link>
+      <h1 className='font-bold text-6xl'>{t("todo.todolist")}</h1>
+      <Link className='text-base underline mx-2' to="/dash">{t("todo.backtodash")}</Link>
       <div className="my-3 w-50">
         <TodoAdd add={add} />
         <TodoList list={list} check={check} edit={edit} del={del} />

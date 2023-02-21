@@ -7,12 +7,12 @@ const Dash = () => {
   const { t } = useTranslation()
   return (
     <>
-      <h1 className="text-4xl">{t('hi')}, {auth.username}</h1>
+      <h1 className="text-4xl">{t('dash.hi')}, {auth.username}</h1>
       <div className="mt-5 space-x-3">
         <Link to="/todo">
-          <button className="w-32 bg-white text-black rounded p-1">{t('mytodo')}</button>
+          <button className="w-32 bg-white text-black rounded p-1">{t('dash.mytodo')}</button>
         </Link>
-        <button onClick={() => auth.signout()} className="w-24 border rounded p-1">{t('signout')}</button>
+        <button onClick={() => auth.signout()} className="w-24 border rounded p-1">{t('dash.signout')}</button>
       </div>
     </>
   )

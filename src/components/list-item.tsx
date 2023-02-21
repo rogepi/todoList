@@ -47,12 +47,12 @@ const TodoListItem = memo(({ todo, check, edit, del }: ITodoListItemProps) => {
         {
           isEdit ?
             <>
-              <button onClick={() => overHandler()} className="w-10 bg-green-400 rounded px-1 text-white font-semibold">{t("yes")}</button>
-              <button onClick={() => cancelHandler()} className="w-10 bg-red-400 rounded px-1 text-white font-semibold">{t("no")}</button>
+              <button onClick={() => overHandler()} className="w-10 bg-green-400 rounded px-1 text-white font-semibold">{t("todo.yes")}</button>
+              <button onClick={() => cancelHandler()} className="w-10 bg-red-400 rounded px-1 text-white font-semibold">{t("todo.no")}</button>
             </> :
             <>
-              <button onClick={() => editHandler()} className="w-10 bg-green-400 rounded px-1 text-white font-semibold">{t("edit")}</button>
-              <button onClick={() => del(todo.id)} className="w-10 bg-red-400 rounded px-1 text-white font-semibold">{t("del")}</button>
+              <button onClick={() => editHandler()} className="w-10 bg-green-400 rounded px-1 text-white font-semibold">{t("todo.edit")}</button>
+              <button onClick={() => del(todo.id)} className="w-10 bg-red-400 rounded px-1 text-white font-semibold">{t("todo.del")}</button>
             </>
         }
       </div>
