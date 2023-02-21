@@ -8,7 +8,7 @@ const Post = () => {
   const { data, error, isLoading } = useGetPostByIdQuery(id)
 
   return (
-    <div className="space-y-3 w-96">
+    <div className="space-y-3  mx-auto px-14">
       <h2 className='text-lg'>RTK query</h2>
       <div className="space-x-3">
         <input type="number" value={id} onChange={e => setId(e.target.value as unknown as number)} className="w-20 bg-zinc-700 p-1" />
