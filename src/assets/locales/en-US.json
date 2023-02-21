@@ -4,12 +4,19 @@
     "username": "username",
     "password": "password",
     "signin": "Sign in",
-    "link": "You can view the code from <a style='color:blue' href='https://github.com/rogepi/todoList'>here</a>"
+    "link": "You can view the code from <1>here</1>",
+    "error": {
+      "namerequest": "username request",
+      "nameincorrect": "Incorrect username format",
+      "pwdrequest": "The password is not enough",
+      "pwdincorrect": "Password is not secure enough"
+    }
   },
   "dash": {
     "hi": "Hi",
     "mytodo": "My TodoList",
-    "signout": "Sign Out"
+    "signout": "Sign Out",
+    "postmsg": "The No.{{num}} post title is"
   },
   "todo": {
     "todolist": "todoList",
