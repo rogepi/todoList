@@ -1,12 +1,12 @@
 {
   "login": {
     "welcome": "Welcome",
-    "username": "username",
-    "password": "password",
+    "username": "Username",
+    "password": "Password",
     "signin": "Sign in",
     "link": "You can view the code from <1>here</1>",
     "error": {
-      "namerequest": "username request",
+      "namerequest": "Username is not null",
       "nameincorrect": "Incorrect username format",
       "pwdrequest": "The password is not enough",
       "pwdincorrect": "Password is not secure enough"
@@ -19,12 +19,12 @@
     "postmsg": "The No.{{num}} post title is"
   },
   "todo": {
-    "todolist": "todoList",
-    "backtodash": "back to dash",
+    "todolist": "TodoList",
+    "backtodash": "Back to dash",
     "add": "Add",
-    "edit": "edit",
-    "del": "del",
-    "yes": "yes",
-    "no": "no"
+    "edit": "Edit",
+    "del": "Del",
+    "yes": "Yes",
+    "no": "No"
   }
 }

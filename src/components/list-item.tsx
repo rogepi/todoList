@@ -22,8 +22,10 @@ const TodoListItem = memo(({ todo, check, edit, del }: ITodoListItemProps) => {
   }, [])
 
   const editHandler = useCallback(() => {
-    if (inputRef.current)
+    if (inputRef.current) {
       setTmp(inputRef.current?.value)
+      inputRef.current.focus()
+    }
     setIsEdit(true)
   }, [])
 
@@ -41,8 +43,10 @@ const TodoListItem = memo(({ todo, check, edit, del }: ITodoListItemProps) => {
   return (
     <div className=" bg-white my-1 p-1 rounded text-black
     flex justify-between items-center" key={todo.id}>
-      <input type="checkbox" ref={checkRef} defaultChecked={todo.check} onChange={checkHandler} className="mr-1" />
-      <input disabled={!isEdit} ref={inputRef} className="outline-none" type="text" defaultValue={todo.content} />
+      <div className="flex items-center">
+        <input type="checkbox" ref={checkRef} defaultChecked={todo.check} onChange={checkHandler} className="mr-1" />
+        <input disabled={!isEdit} ref={inputRef} className="outline-none" type="text" defaultValue={todo.content} />
+      </div>
       <div className="space-x-1">
         {
           isEdit ?
