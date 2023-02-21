@@ -1,0 +1,20 @@
+{
+  "en-US": {
+    "todolist": "todoList",
+    "backtodash": "back to dash",
+    "add": "Add",
+    "edit": "edit",
+    "del": "del",
+    "yes": "yes",
+    "no": "no"
+  },
+  "zh-CN": {
+    "todolist": "待办清单",
+    "backtodash": "返回控制台",
+    "add": "添加",
+    "edit": "编辑",
+    "del": "删除",
+    "yes": "确定",
+    "no": "取消"
+  }
+}

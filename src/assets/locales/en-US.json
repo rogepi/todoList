@@ -1,0 +1,16 @@
+{
+  "welcome": "Welcome",
+  "username": "username",
+  "password": "password",
+  "signin": "Sign in",
+  "hi": "Hi",
+  "mytodo": "My TodoList",
+  "signout": "Sign Out",
+  "todolist": "todoList",
+  "backtodash": "back to dash",
+  "add": "Add",
+  "edit": "edit",
+  "del": "del",
+  "yes": "yes",
+  "no": "no"
+}

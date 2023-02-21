@@ -1,0 +1,16 @@
+{
+  "welcome": "欢迎",
+  "username": "用户名",
+  "password": "密码",
+  "signin": "登录",
+  "hi": "您好",
+  "mytodo": "我的待办清单",
+  "signout": "注销",
+  "todolist": "待办清单",
+  "backtodash": "返回控制台",
+  "add": "添加",
+  "edit": "编辑",
+  "del": "删除",
+  "yes": "确定",
+  "no": "取消"
+}
