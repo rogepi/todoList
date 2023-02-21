@@ -10,7 +10,7 @@ const TodoAdd = ({ add }: { add: (v: string) => void }) => {
   }
   return (
     <div className="flex justify-between gap-3">
-      <input className="text-black p-1 rounded" ref={ref} />
+      <input className="text-black p-1 rounded md:w-80" ref={ref} />
       <button className="bg-white p-1 px-2 rounded font-semibold text-black hover:bg-gray-100" onClick={addTodo}>{t("todo.add")}</button>
     </div>
   )

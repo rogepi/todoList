@@ -6,7 +6,7 @@ const Login = () => {
   const { t } = useTranslation()
 
   return (
-    <div className="p-5 w-[350px] bg-white text-black flex flex-col gap-3 rounded ">
+    <div className="p-5 w-[350px] md:w-[500px] md:h-[300px] md:ml-96 bg-white text-black flex flex-col gap-3 rounded ">
       <h1 className="mx-auto text-xl">{t('login.welcome')}</h1>
 
       <LoginForm />

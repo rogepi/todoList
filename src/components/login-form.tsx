@@ -44,7 +44,7 @@ const LoginForm = () => {
           isSubmitting,
           /* and other goodies */
         }) => (
-          <form onSubmit={handleSubmit} className="flex flex-col space-y-3">
+          <form onSubmit={handleSubmit} className="flex flex-col space-y-3 md:space-y-6">
             <label className="flex justify-between item-start">
               {t('login.username')}
               <div className='flex flex-col items-start'>
@@ -54,7 +54,7 @@ const LoginForm = () => {
                   onChange={handleChange}
                   onBlur={handleBlur}
                   value={values.username}
-                  className="border p-1 rounded"
+                  className="border p-1 rounded md:w-80"
                 />
                 <span className='text-xs text-red-400'>
                   {errors.username && touched.username && errors.username ?
@@ -73,7 +73,7 @@ const LoginForm = () => {
                   onChange={handleChange}
                   onBlur={handleBlur}
                   value={values.password}
-                  className="border p-1 rounded"
+                  className="border p-1 rounded md:w-80"
                 />
                 <div className='text-xs text-red-400'>
                   {errors.password && touched.password && errors.password ?
